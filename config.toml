@@ -1,0 +1,16 @@
+theme = "dracula"
+
+
+[editor]
+color-modes = true
+auto-pairs = false
+
+[keys.normal]
+"tab" = { c = [":config-open"]}
+"esc" = ["collapse_selection", ":w"]
+
+[keys.select]
+"esc" = ["collapse_selection", "normal_mode", ":w"]
+
+[keys.insert]
+"esc" = ["normal_mode", ":w"]
