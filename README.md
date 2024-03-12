@@ -2,7 +2,7 @@ Pokud ještě neznáš Helix a chceš se o něm dozvědět více mrkni do mé Di
 
 ___
 
-
+## Default klávesové zkratky v Helixu
 
 ### NOR režim (normální režim)
 
