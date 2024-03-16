@@ -6,15 +6,18 @@ color-modes = true
 auto-pairs = true 
 auto-save = true
 
+
 [keys.normal]
 "tab" = { c = [":config-open"]}
-"esc" = ["collapse_selection", ":w"]
+C-s = ":w" 
+# "esc" = ["collapse_selection", ":w"]
 
 [keys.select]
-"esc" = ["collapse_selection", "normal_mode", ":w"]
+# "esc" = ["collapse_selection", "normal_mode", ":w"]
 
 [keys.insert]
-"esc" = ["normal_mode", ":w"]
+C-s = ":w" 
+# "esc" = ["normal_mode", ":w"]
 
 [editor.statusline]
 left = ["mode", "spinner"]
@@ -27,3 +30,9 @@ mode.select = "SELECT"
 
 [editor.indent-guides]
 render = true
+
+
+[editor.lsp]
+enable=true
+auto-signature-help=true
+display-messages = true
