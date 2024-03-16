@@ -1,7 +1,7 @@
 Pokud ještě neznáš Helix a chceš se o něm dozvědět více mrkni do mé Digitální zahrady kde se o něm více rozepisuji odkaz najdeš [zde](https://publish.obsidian.md/kankys-note/Digital+Garden+%F0%9F%8C%B1/Digital+Notes+%F0%9F%93%94/Helix/Helix)
 
 
-`![helix](https://lukaskanka.cz/img/helix.png)`
+![helix](https://lukaskanka.cz/img/helix.png)
 
 ___
 
