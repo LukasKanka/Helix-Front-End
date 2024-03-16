@@ -2,10 +2,10 @@
 command = "emmet-language-server"
 args = ["--stdio"]
 
-[[language]]
-name = "html"
-roots = [".git"]
-language-servers = ["emmet-lsp"]
+# [[language]]
+# name = "html"
+# roots = [".git"]
+# language-servers = ["emmet-lsp"]
 
 [language-server.rust-analyzer.config.check]
 command = "clippy"
@@ -21,7 +21,9 @@ command = "clippy"
 [[language]]
 name = "html"
 formatter = { command = 'prettier', args = ["--parser", "html"] }
-language-servers = ["vscode-html-language-server", "emmet-ls"]
+language-servers = ["vscode-html-language-server", "emmet-ls", "emmet-lsp"]
+auto-format = true
+# diagnostic-severity = ["Error", "Warning", "Info", "Hint"]
 
  [language-server.vscode-css-language-server.config]
  css = { validate = { enable = true } }
@@ -46,6 +48,7 @@ language-servers = ["vscode-html-language-server", "emmet-ls"]
 name = "javascript"
 formatter = { command = 'prettier', args = ["--parser", "typescript"] }
 auto-format = true
+# diagnostic-severity = ["Error", "Warning", "Info", "Hint"]
 
 [[language]]
 name = "typescript"
@@ -73,3 +76,4 @@ name = "markdown"
 formatter = { command = 'prettier', args = ["--parser", "markdown"] }
 soft-wrap.enable = true
 soft-wrap.wrap-at-text-width = true
+
